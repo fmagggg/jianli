@@ -146,11 +146,11 @@ ul li{
     margin:30px auto;
     background-image:url(../img/computer.png);
 }
-.con5 .computer .title{
-    position:absolute;
-    color:#FFC900;
-    top:0px;
-    left:10px;
+.con5 .computer_1{
+    width:350px;
+    height:187px;
+    margin:30px auto;
+    background-image:url(../img/computer_1.png);
 }
 .con5 .app{
     width:350px;
@@ -158,33 +158,15 @@ ul li{
     margin:30px auto;
     background-image:url(../img/app.jpg);
 }
-.con5 .app .title{
-    position:absolute;
-    color:#FFC900;
-    top:350px;
-    left:10px;
-}
 .con5 .weixin{
     width:350px;
     height:657px;
     margin:30px auto;
     background-image:url(../img/weixin.jpg);
 }
-.con5 .weixin .title{
-    position:absolute;
-    color:#FFC900;
-    top:70px;
-    left:10px;
-}
 .con5 .python{
     width:350px;
     height:259px;
     margin:30px auto;
     background-image:url(../img/python.png);
-}
-.con5 .python .title{
-    position:absolute;
-    color:#FFC900;
-    top:60px;
-    left:120px;
 }
