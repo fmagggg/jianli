@@ -1,11 +1,23 @@
+
 body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
     margin:0;
     font-family:"微软雅黑";
+    font-size:13px;
     background-color:#313131;
     color:#ffffff;
+}
+ul,p{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+.font13{
+    font-size:18px;
 }
 .canvas{
     position:absolute;
@@ -13,18 +25,23 @@ body, html {
     right:0px;
     bottom:0px;
     left:0px;
+    z-index:1;
 }
-.content{
+.container{
     position:relative;
     width:100%;
+    height:100%;
     overflow-y: auto;
+    z-index:100;
 }
-.con1{
+.con{
     position:relative;
     display:inline-block;
     width:100%;
+}
+.con1{
     height:300px;
-    background-color:#343033;
+    background-color:rgba(52,48,51,0.5);
 }
 .headPhoto{
     width:100px;
@@ -40,9 +57,134 @@ body, html {
     text-align:center;
 }
 .con2{
-    position:relative;
-    display:inline-block;
-    width:100%;
     height:150px;
     background-color:#1c171c;
+}
+.con2 .content{
+    width:270px;
+    height:100%;
+    margin:4px auto;
+}
+.linkMe{
+    position:relative;
+    float:left;
+    width:100px;
+    height:97px;
+    margin-top:20px;
+    background-image:url(../img/linkme.jpg);
+}
+.linkInfo{
+    margin-top:5px;
+    margin-left:10px;
+    position:relative;
+    float:left;
+}
+.linkInfo span{
+    line-height:30px;
+}
+.linkInfo .split{
+    height:0px;
+    border-top:2px solid #323232;
+}
+.con3 .edu{
+    width:350px;
+    height:495px;
+    margin:0 auto;
+    background-image:url(../img/edu.png);
+}
+.con4 .softImg{
+    width:100px;
+    height:100px;
+    margin:10px auto;
+    background-image:url(../img/soft.jpg);
+}
+.con4 .softList{
+    width:350px;
+    margin:20px auto;
+    height:50px;
+}
+.con4 .softList div{
+    position:relative;
+    float:left;
+    width:20%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.con4 .softList img{
+    width:50px;
+    height:50px;
+}
+.con5{
+    margin-top:20px;
+    background-color:#1c171c;
+    border-radius:200px 200px 0 0;
+}
+.con5 .productionImg{
+    width:100px;
+    height:101px;
+    margin:10px auto;
+    background-image:url(../img/production.jpg);
+}
+.con5 .product{
+    position:relative;
+    float:left;
+    clear:both;
+    position:relative;
+    width:100%;
+}
+.con5 .title{
+    position:relative;
+    float:left;
+    clear:both;
+    margin-top:30px;
+    padding-left:20px;
+}
+.con5 .computer{
+    width:350px;
+    height:164px;
+    margin:30px auto;
+    background-image:url(../img/computer.png);
+}
+.con5 .computer .title{
+    position:absolute;
+    color:#FFC900;
+    top:0px;
+    left:10px;
+}
+.con5 .app{
+    width:350px;
+    height:544px;
+    margin:30px auto;
+    background-image:url(../img/app.jpg);
+}
+.con5 .app .title{
+    position:absolute;
+    color:#FFC900;
+    top:350px;
+    left:10px;
+}
+.con5 .weixin{
+    width:350px;
+    height:657px;
+    margin:30px auto;
+    background-image:url(../img/weixin.jpg);
+}
+.con5 .weixin .title{
+    position:absolute;
+    color:#FFC900;
+    top:70px;
+    left:10px;
+}
+.con5 .python{
+    width:350px;
+    height:259px;
+    margin:30px auto;
+    background-image:url(../img/python.png);
+}
+.con5 .python .title{
+    position:absolute;
+    color:#FFC900;
+    top:60px;
+    left:120px;
 }
