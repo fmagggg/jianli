@@ -4,7 +4,7 @@ body, html {
     height: 100%;
     overflow: hidden;
     margin:0;
-    font-family:"微软雅黑";
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size:13px;
     background-color:#313131;
     color:#ffffff;
@@ -60,7 +60,7 @@ ul li{
     text-align:center;
 }
 .con2{
-    height:180px;
+    height:150px;
     background-color:#1c171c;
 }
 .con2 .content{
