@@ -83,8 +83,11 @@ ul li{
     float:left;
 	width:180px;
 }
+.linkInfo li{
+	padding:3px 0 5px 0;
+}
 .linkInfo span{
-    line-height:25px;
+    line-height:0px;
 }
 .linkInfo .split{
     height:0px;
