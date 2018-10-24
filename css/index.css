@@ -67,6 +67,8 @@ ul li{
     width:300px;
     height:100%;
     margin:4px auto;
+	overflow: hidden;
+	white-space:nowrap;
 }
 .linkMe{
     position:relative;
